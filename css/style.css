@@ -1,0 +1,142 @@
+
+html, body {
+	overflow-x: hidden;
+
+}
+/*********** TOP HEADER **********/
+.header-place {
+	text-align: center;
+}
+.header-place span {
+	color: #FCE1E2;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.header-phone {
+	text-align: center;
+}
+.header-phone a {
+	color: #FCE1E2;
+	font-size: 18px;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+.header-phone a:hover {
+	color: #FCE295;
+} 
+.top-header {
+	background-color: #03B297;
+	min-height: 30px;
+}
+.logo {
+	text-align: center;
+	padding-top: 15px;
+}
+.lol {
+	margin-top: 5px;
+}
+.lol li a {
+	color: #03B297;
+	font-size: 18px;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+section#main {
+	background: url(../img/wallpapper-min.jpg) no-repeat center center;
+	height: 700px;
+}
+.main-text {
+	padding-top: 200px;
+	color: #fff;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
+}
+.main-text h1 {
+	font-size: 5em;
+}
+.main-text h4 {
+	font-size: 2.2em;
+}
+section div {
+	padding-top: 15px;
+
+}
+.semi-transparent-button {
+display: block;
+text-decoration: none;
+margin: 0 auto;
+padding: 15px;
+width: 80%;
+max-width: 200px;
+background: #fff; /* запасной цвет для старых браузеров */
+background: rgba(255, 255, 255, 0.5);
+border-radius: 8px;
+color: #fff;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+text-align: center;
+font-size: 1.4em;
+letter-spacing: 1px;
+transition: all 0.3s ease-out;
+}
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+  text-decoration: none;
+}
+.main-section {
+
+}
+.block1 {
+	height: 400px;
+	background: url(../img/IMG1.jpg) no-repeat center center;
+	background-size: cover;
+	/*border: 1px solid black;*/
+}
+.block2 {
+	height: 400px;
+	/*border: 1px solid black;*/
+	display: inline-block;
+}
+.block2 h3 {
+	color: #03B297;
+	padding-top: 35px;
+}
+.block2 p {
+	margin-top: 25px;
+	color: #9A9A9A;
+	line-height: 2.5;
+}
+.dotted  {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(58, 226, 206, 0.7);
+    display: block;
+    margin-left: 50%;
+    margin-top: 40px;
+    box-shadow: 30px 0 rgba(58, 226, 206, 0.7), -30px 0 rgba(58, 226, 206, 0.7);
+}
+.block4 {
+	height: 400px;
+	background: url(../img/IMG2.jpg) no-repeat center center;
+	background-size: cover;
+	/*border: 1px solid black;*/
+}
+.block3 {
+	height: 400px;
+	display: inline-block;
+	color: #03B297;
+}
+.block3 p {
+	margin-top: 25px;
+	color: #9A9A9A;
+	line-height: 2.5;
+}
+.block3 h3 {
+	color: #03B297;
+	padding-top: 35px;
+}
