@@ -72,7 +72,6 @@ max-width: 200px;
 background: #fff; /* запасной цвет для старых браузеров */
 background: rgba(255, 255, 255, 0.5);
 border-radius: 8px;
-color: #fff;
 text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 text-align: center;
 font-size: 1.4em;
@@ -140,3 +139,51 @@ transition: all 0.3s ease-out;
 	color: #03B297;
 	padding-top: 35px;
 }
+/*******Миниат.ры ********/
+section#price {
+	padding-bottom: 15px;
+}
+.header {
+	margin-bottom: 15px;
+}
+.header h2 {
+	color: #03B297;
+}
+.miniatures {
+	border: 2px solid #03B257;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.miniatures img {
+	width: 100%;
+}
+.miniatures h3 {
+	color: #03B297;
+}
+.miniatures h4 {
+	color: #9A9AE1;
+}
+.miniatures ul {
+	color: #9A9A57;
+}
+.miniatures ul li {
+	list-style-image: url(../img/check.png);
+}
+/* чекбокс 15*15 пкс */
+.main-btn {
+	background-color: #00FFA9;
+	border: none;
+	border-bottom: 3px solid #03B297;
+	border-radius: 5px;
+	padding: 10px 30px;
+}
+.main-btn:hover {
+	background-color: #5AFFE6;
+	border-bottom: 1px solid #03B297;
+	margin-top: 2px;
+}
+
+
+
+
