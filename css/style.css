@@ -184,6 +184,9 @@ section#price {
 	border-bottom: 1px solid #03B297;
 	margin-top: 2px;
 }
+.main-btn:focus {
+	outline: none; /* убирает рамку вокруг кнопки при нажатии */
+}
 section#faces {
 	margin-bottom: 3%;
 }
