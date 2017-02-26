@@ -236,11 +236,25 @@ section#aboutus {
 }
 
 /* Slider */
-.item{
-    background: #333;    
+section#feedback {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.item{  
     text-align: center;
-    height: 300px !important;
 }
 .carousel{
     margin-top: 20px;
+}
+.carousel-control {
+	color: gray;
+}
+.carousel-control:hover {
+	color: black;
+}
+.carousel-control.left {
+	background: none;
+}
+.carousel-control.right {
+	background: none;
 }
