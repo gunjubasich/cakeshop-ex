@@ -32,6 +32,7 @@ html, body {
 .logo {
 	text-align: center;
 	padding-top: 15px;
+	margin-top: 2%;
 }
 .lol {
 	margin-top: 5px;
@@ -183,7 +184,52 @@ section#price {
 	border-bottom: 1px solid #03B297;
 	margin-top: 2px;
 }
+section#faces {
+	margin-bottom: 3%;
+}
+.header-peoples h2 {
+	color: #03B297;
+}
+.peoples {
+	margin-bottom: 100px;
+}
+.peoples img {
+	width: 100%;
+}
+.peoples p {
+	padding-top: 20px;
+}
+.peoples img {
+	width: 100px;
+	height: 100px;
+}
 
 
 
+section#aboutus {
+	background: url(../img/wallpapper2.jpg) no-repeat center center;
+	background-size: cover;
+	height: 700px;
+	margin-bottom: 3%;
+}
+.header-aboutus h3 {
+	color: #fff;
+	font-size: 30px;
+}
+.form-aboutus {
+	margin-top: 50px;
+	padding-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.form-aboutus p {
+	color: #03B297;
+	font-size: 20px;
+}
+.form-aboutus hr {
+	width: 80px;
+	height: 2px;
+	border: none;
+	background-color: #03B297;
+}
 
+}

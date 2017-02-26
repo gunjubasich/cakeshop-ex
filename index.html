@@ -20,7 +20,7 @@
   </head>
   <body>
       <header>
-      <div class="top-header">
+      <div class="top-header navbar-fixed-top">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12 header-phone">
             <a href="tel:+79220000206">8 800 2000 600</a>
@@ -95,7 +95,7 @@
                   <li>Прелестные</li>
                   <li>Классные</li>
                 </ul>
-                <button  class="main-btn" type="submit">Заказать</button>
+                <button class="main-btn" data-toggle="modal" type="submit" data-target="#modal1" >Заказать</button>
             </div>
             </div>
             <div class="col-sm-3 text-center">
@@ -143,6 +143,113 @@
           </div>
           </div>
       </section>  
+
+      <section id="faces">
+        <div class="container">
+          <div class="row header-peoples text-center">
+          <h2>Эти ребята любят сладости</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 text-center">
+            <div class="peoples">
+              <img src="img/face1.png" alt="Лицо 1">
+              <p>О дааа я люблю сладости</p>
+            </div>
+          </div>
+          <div class="col-sm-3 text-center">
+            <div class="peoples">
+              <img src="img/face2.png" alt="Лицо 2">
+              <p>О дааа я люблю сладости</p>
+            </div>
+          </div>
+          <div class="col-sm-3 text-center">
+            <div class="peoples">
+              <img src="img/face3.png" alt="Лицо 3">
+              <p>О дааа я люблю сладости</p>
+            </div>
+          </div>
+          <div class="col-sm-3 text-center">
+            <div class="peoples">
+              <img src="img/face4.png" alt="Лицо 4">
+              <p>О дааа я люблю сладости</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section id="aboutus">
+        <div class="container">
+          <div class="row">
+            <div class="header-aboutus text-center">
+              <h3>О нас</h3>
+            </div>
+          </div>
+            <div class="row text-center">
+              <div class="form-aboutus ">
+                <div class="row">
+                  <div class="col-sm-6 text-center">
+                      <p>110</p>
+                      <hr>
+                     <p>Успешных проектов</p>
+                  </div>
+                  <div class="col-sm-6">
+                      <p>60</p>
+                      <hr>
+                      <p>Съеденных тортов</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                      <p>11000</p>
+                      <hr>
+                      <p>Тортов</p>
+                  </div>
+                  <div class="col-sm-6">
+                      <p>60000</p>
+                      <hr>
+                      <p>Капкейкы</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+
+<!-- Всплывающее окно -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center" id="myModalLabel">Заказать капкейки епта</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row text-center">
+          <h5>Для заказа оставтье маляву</h5> <br>
+        </div>
+        <div class="row">
+          <form action="">
+          <div class="col-sm-4">
+            <input type="text" placeholder="Введите имя">
+          </div>
+          <div class="col-sm-4">
+            <input type="text" placeholder="Введите Телефон">
+          </div>
+          <div class="col-sm-4">
+            <input type="text" placeholder="Количество штук">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Забронировать</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
