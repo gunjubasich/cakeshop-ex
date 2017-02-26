@@ -235,4 +235,12 @@ section#aboutus {
 	background-color: #03B297;
 }
 
+/* Slider */
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
 }
