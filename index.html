@@ -59,7 +59,7 @@
         </div>
         </div>
       </section>
-      <section>
+      <section id="main-sec">
         <div class="container">
           <div class="row main-section">
             <div class="col-sm-6 block1">
@@ -87,7 +87,12 @@
             <div class="col-sm-3 text-center">
               <div class="miniatures">
                 <h3>Торт</h3>
-                <img src="img/Cake.jpg" alt="Торт">
+                <div class="fotorama" data-loop="true" data-nav="false" data-width="100%" data-autoplay="2000">
+                  <img src="img/cake-pops.jpg">
+                  <img src="img/cupcake.jpg">
+                  <img src="img/Cake.jpg">
+                  <img src="img/macarons.jpg">
+                </div>
                 <h4>Торты на заказ</h4>
                 <ul class="text-left">
                   <li>Очень вкусные</li>
@@ -101,7 +106,12 @@
             <div class="col-sm-3 text-center">
               <div class="miniatures">
                 <h3>Капкейк</h3>
-                <img src="img/cupcake.jpg" alt="Капкейк">
+                <div class="fotorama" data-loop="true" data-nav="false" data-width="100%" data-autoplay="2000">
+                  <img src="img/cupcake.jpg">
+                  <img src="img/macarons.jpg">
+                  <img src="img/cupcake.jpg">
+                  <img src="img/Cake.jpg">
+                </div>
                 <h4>Торты на заказ</h4>
                 <ul class="text-left">
                   <li>Очень вкусные</li>
@@ -115,7 +125,12 @@
             <div class="col-sm-3 text-center">
               <div class="miniatures">
                 <h3>Макарун</h3>
-                <img src="img/macarons.jpg" alt="Макарун">
+                <div class="fotorama" data-loop="true" data-nav="false" data-width="100%" data-autoplay="2000">
+                  <img src="img/face2.png">
+                  <img src="img/Cake.jpg">
+                  <img src="img/cupcake.jpg">
+                  <img src="img/macarons.jpg">
+                </div>
                 <h4>Торты на заказ</h4>
                 <ul class="text-left">
                   <li>Очень вкусные</li>
@@ -129,7 +144,12 @@
             <div class="col-sm-3 text-center">
               <div class="miniatures">
                 <h3>Кейкпопс</h3>
-                <img src="img/cake-pops.jpg" alt="Кейкпопс">
+                <div class="fotorama" data-loop="true" data-nav="false" data-width="100%" data-autoplay="2000">
+                  <img src="img/face3.png">
+                  <img src="img/Cake.jpg">
+                  <img src="img/cupcake.jpg">
+                  <img src="img/macarons.jpg">
+                </div>
                 <h4>Торты на заказ</h4>
                 <ul class="text-left">
                   <li>Очень вкусные</li>
@@ -150,25 +170,25 @@
           <h2>Эти ребята любят сладости</h2>
         </div>
         <div class="row">
-          <div class="col-sm-3 wow bounce text-center" data-wow-delay="0.1s">
+          <div class="col-sm-3 col-xs-6 wow fadeInUp text-center" data-wow-delay="0.1s">
             <div class="peoples">
               <img src="img/face1.png" alt="Лицо 1">
               <p>О дааа я люблю сладости</p>
             </div>
           </div>
-          <div class="col-sm-3 wow bounce text-center" data-wow-delay="0.25s">
+          <div class="col-sm-3 col-xs-6 wow fadeInUp text-center" data-wow-delay="0.25s">
             <div class="peoples">
               <img src="img/face2.png" alt="Лицо 2">
               <p>О дааа я люблю сладости</p>
             </div>
           </div>
-          <div class="col-sm-3 wow bounce text-center" data-wow-delay="0.40s">
+          <div class="col-sm-3 col-xs-6 wow fadeInUp text-center" data-wow-delay="0.40s">
             <div class="peoples">
               <img src="img/face3.png" alt="Лицо 3">
               <p>О дааа я люблю сладости</p>
             </div>
           </div>
-          <div class="col-sm-3 wow bounce text-center" data-wow-delay="0.55s">
+          <div class="col-sm-3 col-xs-6 wow fadeInUp text-center" data-wow-delay="0.55s">
             <div class="peoples">
               <img src="img/face4.png" alt="Лицо 4">
               <p>О дааа я люблю сладости</p>
@@ -208,7 +228,7 @@
                   <div class="col-sm-6">
                       <p>60000</p>
                       <hr>
-                      <p>Капкейкы</p>
+                      <p>Капкейки</p>
                   </div>
                 </div>
               </div>
@@ -261,4 +281,6 @@
     <script>
      new WOW().init();
     </script>
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
 </html>
